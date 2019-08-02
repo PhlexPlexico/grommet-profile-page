@@ -1,0 +1,46 @@
+{
+  "theme": {
+    "global": {
+      "colors": {
+        "brand": "#30343b",
+        "accent-1": "#30344b"
+      },
+      "font": {
+        "family": "Roboto",
+        "size": "14px",
+        "height": "20px"
+      }
+    }
+  },
+
+  "pages": [
+    ["home", "/", "Home"],
+    ["info", "/about", "About"],
+    ["tasks", "/projects", "Projects"]
+  ],
+
+  "socials": [["github", "<URL>", "Github"], ["facebook", "<URL>", "Facebook"]],
+
+  "about": [
+    [
+      "<a11yTitle>",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed libero eget magna malesuada accumsan. Suspendisse quis velit enim. Fusce quis turpis ligula. Cras venenatis augue et nisl aliquet lacinia. Sed vel dui eleifend, ornare sem eget, pulvinar tellus. Morbi consequat, sapien et volutpat maximus, ex sapien ultricies purus, a laoreet erat sapien in purus."
+    ],
+    [
+      "<a11yTitle>",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultrices, felis id viverra luctus, lacus nisi fringilla elit, a suscipit turpis eros et augue. Nullam odio elit, feugiat id imperdiet sagittis, pretium cursus ipsum. Aenean ac ultricies sapien. Vestibulum vel nibh sed ante consectetur iaculis."
+    ],
+    [
+      "<a11yTitle>",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit nibh quis tellus scelerisque gravida. Maecenas volutpat a dolor sed consequat. Etiam porta convallis magna, mattis pretium dui eleifend sed. Morbi dapibus arcu nisl, in pharetra risus mattis quis. Aliquam imperdiet nulla metus, et ultrices enim ultricies id. Ut lobortis dolor eu lacus pharetra faucibus. Mauris varius sed lacus nec ultrices. Interdum et malesuada fames ac ante ipsum primis in faucibus. In eu finibus sapien. Aenean luctus luctus nisi ac fringilla. "
+    ],
+    [
+      "<a11yTitle>",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam sapien sed auctor condimentum. Praesent dignissim at dui a mollis. In nec leo consequat est pharetra consectetur id et metus. Sed vitae auctor magna, malesuada ornare nulla. Praesent libero orci, vehicula id lobortis in, egestas vel est. Morbi sit amet faucibus augue. Pellentesque non ante sapien. Pellentesque pharetra ultricies venenatis. Quisque consequat, orci in gravida interdum, enim tortor dignissim justo, et pharetra diam nisl et justo."
+    ],
+    [
+      "<a11yTitle>",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac augue quis diam eleifend blandit eget non lorem. Mauris a leo eleifend arcu feugiat fringilla. Suspendisse sed pulvinar odio, eget vestibulum metus. Ut placerat dignissim lectus, venenatis porta dui tincidunt vel. Vivamus non commodo ligula."
+    ]
+  ]
+}

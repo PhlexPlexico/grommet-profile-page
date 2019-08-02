@@ -1,0 +1,87 @@
+hr {
+  font-family: Arial, sans-serif; /* choose the font you like */
+  text-align: center; /* horizontal centering */
+  line-height: 1px; /* vertical centering */
+  height: 1px; /* gap between the lines */
+  font-size: 1em; /* choose font size you like */
+  border-width: 1px 0; /* top and bottom borders */
+  border-style: solid;
+  border-color: #676767;
+  margin: 10px 10px; /* 10px space above/below, 10px left/right */
+  overflow: visible;
+
+  /* ensure 1px gap between borders */
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -ms-box-sizing: content-box;
+  -o-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 75%;
+}
+
+hr:after {
+  content: "§"; /* section sign */
+  color: #999;
+  display: inline; /* for vertical centering and background knockout */
+  background-color: #333333; /* same as background color */
+  padding: 0 0.5em; /* size of background color knockout */
+}
+
+/* opera doesn't render correctly. hide section sign */
+x:-o-prefocus,
+hr:after {
+  content: "";
+}
+
+.hrModal{
+  margin: 0;
+}
+
+.text-link,
+text-link:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.profile {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 15.75rem;
+  height: 15.75rem;
+}
+
+.modalImage {
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  object-fit: cover;
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.modalFadeIn {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: relative;
+}
+
+.fadeContainer:hover .modalImage {
+  opacity: 0.3;
+}
+
+.fadeContainer:hover .modalFadeIn {
+  opacity: 1;
+}
+
+.hiddenScroll{
+  -ms-overflow-style: none;
+    scrollbar-width: none; 
+}
+
+.hiddenScroll::-webkit-scrollbar { 
+  display: none;
+}
+
+.modalHeading {
+  line-height:0.25em !important;
+}
